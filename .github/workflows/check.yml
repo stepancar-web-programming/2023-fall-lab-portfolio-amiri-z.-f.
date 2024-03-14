@@ -4,21 +4,25 @@ on:
   push:
     branches:
       - dev
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  eslint:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 20.11.0
-
       - name: Install dependencies
         run: npm install
 
-      - name: Run ESLint
-        run: npm run lint
+      - name: Lint JS
+        run: npm run lint:js
+      
+      - name: Lint CSS
+        run: npm run lint:css
+      
+      - name: Lint HTML
+        run: npm run lint:html
