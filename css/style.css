@@ -41,7 +41,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-section:hover{
+section:hover {
   transform: scale(1.02);
 }
 footer {
@@ -115,8 +115,6 @@ body.dark-mode section {
   color: #fff;
 }
 
-
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -140,7 +138,6 @@ body.dark-mode li {
   color: #fff;
 }
 
-
 .social-media-link {
   text-decoration: none;
   color: #333;
@@ -161,53 +158,52 @@ body.dark-mode .social-media-link {
   background-color: #eee;
 }
 
-#toggle-dark-mode-nav{
-    margin-top: 90px;
-    display: none;
+#toggle-dark-mode-nav {
+  margin-top: 90px;
+  display: none;
 }
 
 @media screen and (min-width: 600px) {
-    main {
-        margin-left: 10px;
-        margin-right: 10px;
-        justify-content: space-between;
-    }
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
 
-    section {
-        flex-basis: 100%; /* Two columns on larger screens */
-    }
+  section {
+    flex-basis: 100%; /* Two columns on larger screens */
+  }
 }
 
 @media screen and (min-width: 1100px) {
-    /* Adjust styles for screens with a minimum width of 800px */
-    main {
-        margin-left: 2%;
-        margin-right: 2%;
-        justify-content: space-between;
-    }
-    section {
-        flex-basis: 38%; /* Three columns on even larger screens */
-    }
+  /* Adjust styles for screens with a minimum width of 800px */
+  main {
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-between;
+  }
+  section {
+    flex-basis: 38%; /* Three columns on even larger screens */
+  }
 }
 
 @media screen and (min-width: 1300px) {
-    /* Adjust styles for screens with a minimum width of 800px */
-    main {
-        margin-left: 10%;
-        margin-right: 10%;
-        justify-content: space-between;
-    }
-    section {
-        flex-basis: 38%; /* Three columns on even larger screens */
-    }
+  /* Adjust styles for screens with a minimum width of 800px */
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+  }
+  section {
+    flex-basis: 38%; /* Three columns on even larger screens */
+  }
 }
 
 @media screen and (max-width: 500px) {
-    #toggle-dark-mode{
-        display: none;
-    }
-    #toggle-dark-mode-nav{
-        display: flex;
-    }
-    
+  #toggle-dark-mode {
+    display: none;
+  }
+  #toggle-dark-mode-nav {
+    display: flex;
+  }
 }
