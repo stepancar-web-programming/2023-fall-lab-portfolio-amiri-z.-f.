@@ -1,8 +1,9 @@
 {
-  "name": "2023-fall-lab-portfolio-amiri-z.-f",
+  "name": "ronaldo",
   "version": "1.0.0",
   "description": "Лабораторная работа по Веб-технологиям",
   "main": "index.html",
+  "private": "true",
   "scripts": {
     "lint:js": "eslint **/*.js",
     "lint:css": "stylelint **/*.css",
@@ -17,5 +18,8 @@
     "prettier": "3.2.5",
     "stylelint": "^16.2.1",
     "stylelint-config-standard": "^36.0.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.1.0"
   }
 }
