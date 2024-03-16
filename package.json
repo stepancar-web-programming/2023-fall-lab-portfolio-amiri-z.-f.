@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Лабораторная работа по Веб-технологиям",
   "main": "index.html",
-  "private": "true",
+  "private": true,
   "scripts": {
     "lint:js": "eslint **/*.js",
     "lint:css": "stylelint **/*.css",
@@ -17,9 +17,7 @@
     "htmlhint": "^1.1.4",
     "prettier": "3.2.5",
     "stylelint": "^16.2.1",
-    "stylelint-config-standard": "^36.0.0"
-  },
-  "dependencies": {
+    "stylelint-config-standard": "^36.0.0",
     "eslint-config-standard": "^17.1.0"
   }
 }
